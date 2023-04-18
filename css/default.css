@@ -117,6 +117,8 @@ pre {
 .fa-envelope,
 .fa-linkedin {
    color: white;
+   -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .fa-discord:hover,
@@ -126,6 +128,7 @@ pre {
    font-size: 130%;
    color: darkgray;
    transition: font-size 0.1s;
+   
 }
 
 /*Changes color of option to dark grey and enlarges when hovered */
